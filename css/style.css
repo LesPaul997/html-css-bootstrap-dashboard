@@ -8,7 +8,9 @@ RESET
     box-sizing: border-box;
 }
 
-
+main {
+    margin-top: 35px;
+}
 
 main .container-fluid {
     max-width: 1300px;   
@@ -19,5 +21,15 @@ main .table-fluid {
     margin-right: 300px;
     width: 1270px;
 
+
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.table button {
+    font-size: x-small;
+    
 }
 
