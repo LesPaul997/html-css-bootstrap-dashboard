@@ -13,3 +13,11 @@ RESET
 main .container-fluid {
     max-width: 1300px;   
 }
+
+main .table-fluid {
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1270px;
+
+}
+
