@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Catalogo Libri</title>
 
-    <!--LINK CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <!--/LINK CSS-->
+    
 
     <!--LINK BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -16,9 +14,21 @@
     <!--LINK ICON-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--/LINK ICON-->
+
+    <!--FONT UTILIZZATO ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--/FONT ROBOTO-->
+
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--/LINK CSS-->
 </head>
 
 <body>
+
+    <!--HEADER -- LOGO -- MENU -->
     <header>
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -39,7 +49,7 @@
               </button>
 
         
-
+            <!-- MENU -->
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
@@ -61,12 +71,15 @@
               </div>
             </div>
           </nav>
-
+            <!-- /MENU -->
 
           
     </header>
 
     <main>
+
+        <!--CONTAINER CON BOTTONE-->
+
         <div class="container-fluid">
             <nav class="navbar bg-body-tertiary" data-bs-theme="white">
                 <div class="container-fluid">
@@ -97,72 +110,72 @@
                           </td>
                           <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
-                    <tr>
-                      <th scope="row">I promessi sposi</th>
-                      <td>-</td>
-                      <td><button type="button" class="btn btn-success">Disponibile</button>
-                      </td>
-                      <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Il signore degli anelli</th>
-                        <td>18/10/2023</td>
-                        <td><button type="button" class="btn btn-warning">In prestito</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                      <tr>
+                          <th scope="row">I promessi sposi</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button>
+                          </td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Harry Potter e la pietra filosofale</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Il signore degli anelli</th>
+                          <td>18/10/2023</td>
+                          <td><button type="button" class="btn btn-warning">In prestito</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Il codice Da Vinci</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Harry Potter e la pietra filosofale</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Shining</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Il codice Da Vinci</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">La divina commedia</th>
-                        <td>21/09/2023</td>
-                        <td><button type="button" class="btn btn-warning">In prestito</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Shining</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Il trono di spade</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">La divina commedia</th>
+                          <td>21/09/2023</td>
+                          <td><button type="button" class="btn btn-warning">In prestito</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Il mondo di Sofia</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Il trono di spade</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Le cronache di Narnia: il leone,la strega e l'armadio</th>
-                        <td>25/07/2023</td>
-                        <td><button type="button" class="btn btn-warning">In prestito</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Il mondo di Sofia</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">Il piccolo principe</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Le cronache di Narnia: il leone,la strega e l'armadio</th>
+                          <td>25/07/2023</td>
+                          <td><button type="button" class="btn btn-warning">In prestito</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                       <tr>
-                        <th scope="row">La storia infinita</th>
-                        <td>-</td>
-                        <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                        <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                          <th scope="row">Il piccolo principe</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
+                      </tr>
+                      <tr>
+                          <th scope="row">La storia infinita</th>
+                          <td>-</td>
+                          <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                          <td><i style="font-size:20px" class="fa">&#xf040;</i><i style="font-size:20px" class="fa">&#xf014;</i></td>
                       </tr>
                   </tbody>
             </table>
@@ -171,5 +184,9 @@
 
         
     </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 </html>
