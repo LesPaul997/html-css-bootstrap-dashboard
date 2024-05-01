@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Catalogo Libri</title>
+
+    
+
+    <!--LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--/LINK BOOTSTRAP-->
+
+    <!--LINK ICON-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--/LINK ICON-->
+
+    <!--FONT UTILIZZATO ROBOTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--/FONT ROBOTO-->
+
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--/LINK CSS-->
+</head>
+
+<body>
+
+    <!--HEADER -- LOGO -- MENU -->
+    <header>
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+            <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/duck.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+          
+          <!--    TENERE QUESTO COMANDO PER UN FUTURO INSERIMENTO DI BOTTONE     -->
+
+          <a class="navbar-brand" href="#">Catalogo Libri</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+
+        
+            <!-- MENU -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Anagrafica</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Utenti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Storico</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Prestiti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            <!-- /MENU -->
+
+          
+    </header>
+
+    <main>
+
+        <!--CONTAINER CON BOTTONE-->
+
+        <div class="container-fluid">
+            <nav class="navbar " data-bs-theme="white">
+                <div class="container-fluid">
+                <a class="navbar-brand">Nuovo Libro</a>
+                </div>
+            </nav>
+        
+        
+
+        
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputFirstName" class="form-label">Nome Autore</label>
+                  <input type="firstname" class="form-control" id="inputEmail4" placeholder="Inserisci il nome dell'autore">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputLastName" class="form-label">Cognome Autore</label>
+                  <input type="lastname" class="form-control" id="inputPassword4" placeholder="Inserisci il cognome dell'autore">
+                </div>
+                <div class="col-12">
+                  <label for="inputTitle" class="form-label">Titolo</label>
+                  <input type="text" class="form-control" id="inputTitle" placeholder="Inserisci il nome del titolo">
+                  <div id="emailHelp" class="form-text">Titolo versione italiana</div>
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </form>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+</html>
